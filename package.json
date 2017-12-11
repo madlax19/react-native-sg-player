@@ -1,0 +1,38 @@
+{
+  "name": "react-native-sg-player",
+  "version": "0.0.1",
+  "description": "A <SGPlayer /> element for react-native",
+  "main": "SGPlayer.js",
+  "license": "MIT",
+  "keywords": [
+    "sgplayer",
+    "video",
+    "player"
+  ],
+  "files": [
+    "ios/RCTVLCPlayer.xcodeproj",
+    "ios/RCTVLCPlayer/RCTVLCPlayer.h",
+    "ios/RCTVLCPlayer/RCTVLCPlayer.m",
+    "ios/RCTVLCPlayer/RCTVLCPlayerManager.h",
+    "ios/RCTVLCPlayer/RCTVLCPlayerManager.m",
+    "ios/Frameworks/SGPlatform.framework",
+    "ios/Frameworks/SGPlayer.framework",
+    "SGPlayer.js"
+  ],
+  "scripts": {
+    "test:fix": "standard --fix"
+  },
+  "author": {
+    "name": "Elena Chekhova",
+    "email": "madlax19@mail.ru"
+  },
+  "homepage": "https://github.com/madlax19/react-native-sg-player",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/madlax19/react-native-sg-player"
+  },
+  "devDependencies": {
+    "standard": "^10.0.3"
+  },
+  "dependencies": {}
+}
